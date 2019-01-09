@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view>
+
+<view class="container">
+
+ <wux-spin nested spinning="{{ spinning }}" tip="Loading...">
+ <textarea>
+<rich-text nodes='{{articledata.content}}'></rich-text>
+</textarea>
+</wux-spin>
+
+</view>
+
+
+
+</view>

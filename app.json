@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/today/index",
+    "pages/random/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "每日一文",
+    "navigationBarTextStyle":"black"
+  },
+  "usingComponents": {
+    "wux-spin": "/components/spin/index",
+        "wux-refresher": "/components/refresher/index"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/today/index",
+        "text": "今日一文"
+      },
+      {
+        "pagePath": "pages/random/index",
+        "text": "随机一文"
+      }
+    ]
+  }
+}
